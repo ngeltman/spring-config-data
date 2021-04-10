@@ -4,8 +4,6 @@ server:
   include-message: always
 
 spring:
- config:
-  import: optional:configserver
  h2:
   console:
    enabled: true
