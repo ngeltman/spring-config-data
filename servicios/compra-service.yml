@@ -26,6 +26,7 @@ spring:
 
 eureka:
  client:
+  fetchRegistry: true
   serviceUrl: 
    defaultZone: http://localhost:8099/eureka/
 feign:
