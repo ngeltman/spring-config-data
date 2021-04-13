@@ -1,4 +1,4 @@
-server:ngel
+server:
  port: 8093
  error:
   include-message: always
@@ -23,7 +23,7 @@ spring:
    show_sql: true
    use_sql_comments: true
    format_sql: true
-
+   
 eureka:
  client:
   serviceUrl: 
