@@ -30,12 +30,6 @@ eureka:
  client:
   serviceUrl: 
    defaultZone: http://localhost:8099/eureka/
-boot:
-  admin:
-   client:
-    instance: 
-     health-url: http://localhost:${server.port}/actuator/health/
-
 management:
  endpoints:
   web:
